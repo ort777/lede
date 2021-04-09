@@ -13,12 +13,10 @@ KERNEL_LOADADDR = 0x80060000
 DEVICE_VARS += BOARDNAME CMDLINE CONSOLE LOADER_TYPE
 
 ifeq ($(SUBTARGET),generic)
-/*
-include ./generic.mk
-include ./generic-legacy-devices.mk
-include ./generic-tp-link.mk
-include ./generic-ubnt.mk
-*/
+#include ./generic.mk
+#include ./generic-legacy-devices.mk
+#include ./generic-tp-link.mk
+#include ./generic-ubnt.mk
 include ./ruijie.mk
 endif
 ifeq ($(SUBTARGET),tiny)
