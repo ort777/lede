@@ -631,6 +631,9 @@ ar71xx_board_detect() {
 	*"AP143 reference board")
 		name="ap143"
 		;;
+	"RG-EST310")
+                name="rg-est310"
+                ;;      
 	*"AP147-010 reference board")
 		name="ap147-010"
 		;;
