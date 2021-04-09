@@ -232,6 +232,11 @@ ar71xx_setup_interfaces()
 		ucidef_add_switch "switch0" \
 			"1:lan" "2:lan" "5@eth1"
 		;;
+	rg-est310)
+                ucidef_set_interfaces_lan_wan "eth0.1"
+                ucidef_add_switch "switch0" \
+		"0@eth0" "1:lan" "2:lan" "3:lan" "4:lan"
+		;;
 	archer-c5|\
 	archer-c7|\
 	tl-wdr4900-v2)
