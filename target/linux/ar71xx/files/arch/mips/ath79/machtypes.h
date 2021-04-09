@@ -236,6 +236,7 @@ enum ath79_mach_type {
 	ATH79_MACH_RB_SXTLITE5ND,		/* Mikrotik RouterBOARD SXT Lite 5nD */
 	ATH79_MACH_RE355,			/* TP-LINK RE355 */
 	ATH79_MACH_RE450,			/* TP-LINK RE450 */
+	ATH79_MACH_RG_EST310,                   /* Ruijie RG-EST310 boards */
 	ATH79_MACH_RME_EG200,			/* eTactica EG200 */
 	ATH79_MACH_RUT9XX,			/* Teltonika RUT900 series */
 	ATH79_MACH_RW2458N,			/* Redwave RW2458N */
